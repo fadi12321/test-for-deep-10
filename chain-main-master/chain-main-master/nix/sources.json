@@ -1,0 +1,50 @@
+{
+    "cosmos-sdk": {
+        "branch": "v0.45.0",
+        "description": ":chains: A Framework for Building High Value Public Blockchains :sparkles:",
+        "homepage": "https://cosmos.network/",
+        "owner": "cosmos",
+        "repo": "cosmos-sdk",
+        "rev": "b6c77e6c819f8a51166649eaef125d1bfb276f04",
+        "sha256": "09ns4yfxyfi7c7n5g69zv32m1rdssdl48c1akmv1y2vz6ayz4v02",
+        "type": "tarball",
+        "url": "https://github.com/cosmos/cosmos-sdk/archive/b6c77e6c819f8a51166649eaef125d1bfb276f04.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "gomod2nix": {
+        "branch": "master",
+        "description": "Convert applications using Go modules to Nix expressions",
+        "homepage": null,
+        "owner": "nix-community",
+        "repo": "gomod2nix",
+        "rev": "3cbf3a51fe32e2f57af4c52744e7228bab22983d",
+        "sha256": "11kn199nxcw6zspqawkrsfwv8wzx581wif3day160qlg11ya9di5",
+        "type": "tarball",
+        "url": "https://github.com/nix-community/gomod2nix/archive/3cbf3a51fe32e2f57af4c52744e7228bab22983d.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "ibc-rs": {
+        "branch": "v1.1.0",
+        "description": "IBC modules and relayer - Formal specifications and Rust implementation",
+        "homepage": "",
+        "owner": "informalsystems",
+        "repo": "ibc-rs",
+        "rev": "0daa3e16431e748c96a3fa4ad5e9698074e09060",
+        "sha256": "1fp4hz390fd4nlkrkzdmypy9i83i57l21hg7l0d9xi8h1hjginam",
+        "type": "tarball",
+        "url": "https://github.com/informalsystems/ibc-rs/archive/0daa3e16431e748c96a3fa4ad5e9698074e09060.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "master",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "4f16b8f48ea836282c81c915d6a16b0663a89d2d",
+        "sha256": "0p8i2cghw2b9la45gw02c4kaa7zd0kx3fydd3lmjcl0znfxkdxhv",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/4f16b8f48ea836282c81c915d6a16b0663a89d2d.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
